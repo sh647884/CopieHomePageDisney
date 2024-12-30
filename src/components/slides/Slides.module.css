@@ -1,0 +1,9 @@
+.imgContainer {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.imgSlide {
+    z-index: 1;
+}

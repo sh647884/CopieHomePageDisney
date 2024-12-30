@@ -1,0 +1,33 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0C0E14;
+  color: #f9f9f9;
+  font-family: Avenir-World-for-Disney-Demi,sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 789px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 483px) and (max-width: 766px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  body {
+    font-size: 14px;
+  }
+}
